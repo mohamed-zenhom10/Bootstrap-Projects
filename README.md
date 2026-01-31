@@ -1,6 +1,6 @@
 # Bootstrap Projects
 
-![Bootstrap](https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg)
+![Bootstrap](https://raw.githubusercontent.com/github/explore/main/topics/bootstrap/bootstrap.png)
 
 Welcome to my collection of **Bootstrap projects**! This repository contains various projects demonstrating my skills in building responsive and modern web pages using **Bootstrap**.
 
