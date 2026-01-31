@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sen:wght@400..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <title>Ecommerce Website</title>
+</head>
+<body>
+  <!-- Start Navbar -->
+  <nav class="navbar navbar-expand-xl px-md-5">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-3 fw-bold" href="#">MegaMart</a>
+      <button class="navbar-toggler rounded-circle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars fs-3"></i>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <form class="d-flex position-relative mt-5 mt-xl-0" role="search">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input class="form-control" type="search" placeholder="Search for items here..." aria-label="Search"/>
+          <i class="fa-solid fa-list-ul list-icon"></i>
+        </form>
+        <div class="navbar-buttons d-flex align-items-center ms-xl-5 mt-5 mt-xl-0">
+          <div class="register">
+            <i class="fa-regular fa-user"></i>
+            <span class="fs-5">Sign Up/Sign In</span>
+          </div>
+          <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="fs-5">Cart</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <!-- Start Sections Buttons -->
+  <div class="buttons pb-5 px-2 px-md-5 d-flex justify-content-between flex-wrap align-items-center my-5">
+    <button type="button" class="active">Groceries</button>
+    <button type="button">Premium Fruits</button>
+    <button type="button">Home & Kitchen</button>
+    <button type="button">Fashion</button>
+    <button type="button">Electronics</button>
+    <button type="button">Beauty</button>
+    <button type="button">Home Improvement</button>
+    <button type="button">Sports, Toys & Luggage</button>
+  </div>
+  <!-- End Sections Buttons -->
+  
+  <!-- Start Home Section -->
+  <section class="home container py-5 rounded">
+    <div class="row align-items-center px-lg-5 g-3">
+      <div class="col-sm-6 col-md-8">
+        <div class="content">
+          <h4>Best Deal Online On Smart Watches</h4>
+          <h1 class="fw-bold text-uppercase my-3">Smart Wearable</h1>
+          <h4>UP To 80% OFF</h4>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 text-center">
+        <img class="img-fluid" src="images/home.png" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- End Home Section -->
+
+  <!-- Start SmartPhones Section -->
+  <section class="smart container py-5">
+    <div class="main-title py-4 d-flex justify-content-between align-items-center">
+      <div class="title-text">
+        <h3 class="fw-normal">Grap the best deal on <span>Smartphones</span></h3>
+      </div>
+      <div class="title-btn">
+        <a href="#" class="fs-5">View all</a>
+        <i class="fa-solid fa-angle-right ms-3 fs-5"></i>
+      </div>
+    </div>
+    <div class="row mt-5 gy-5 justify-content-center">
+      <div class="col-auto">
+        <div class="card rounded overflow-hidden" style="width: 18rem;">
+          <div class="img-container">
+            <img class="img-fluid" src="images/smart-phone-1.png" class="card-img-top">
+          </div>
+          <div class="card-body p-3">
+            <h5 class="card-title">Galaxy S22 Ultra</h5>
+            <p class="card-text"><span class="fw-bold">$32999</span> &nbsp; <span class="text-black-50 text-decoration-line-through">$72999</span></p>
+            <p class="save pt-3">Save - $32999</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-auto">
+        <div class="card rounded overflow-hidden" style="width: 18rem;">
+          <div class="img-container">
+            <img class="img-fluid" src="images/smart-phone-2.png" class="card-img-top">
+          </div>
+          <div class="card-body p-3">
+            <h5 class="card-title">Galaxy M13</h5>
+            <p class="card-text"><span class="fw-bold">$10499</span> &nbsp; <span class="text-black-50 text-decoration-line-through">$14999</span></p>
+            <p class="save pt-3">Save - $4500</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-auto">
+        <div class="card rounded overflow-hidden" style="width: 18rem;">
+          <div class="img-container">
+            <img class="img-fluid" src="images/smart-phone-3.png" class="card-img-top">
+          </div>
+          <div class="card-body p-3">
+            <h5 class="card-title">Galaxy M33</h5>
+            <p class="card-text"><span class="fw-bold">$16999</span> &nbsp; <span class="text-black-50 text-decoration-line-through">$24999</span></p>
+            <p class="save pt-3">Save - $8000</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-auto">
+        <div class="card rounded overflow-hidden" style="width: 18rem;">
+          <div class="img-container">
+            <img class="img-fluid" src="images/smart-phone-4.png" class="card-img-top">
+          </div>
+          <div class="card-body p-3">
+            <h5 class="card-title">Galaxy M53</h5>
+            <p class="card-text"><span class="fw-bold">$31999</span> &nbsp; <span class="text-black-50 text-decoration-line-through">$40999</span></p>
+            <p class="save pt-3">Save - $9000</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-auto">
+        <div class="card rounded overflow-hidden" style="width: 18rem;">
+          <div class="img-container">
+            <img class="img-fluid" src="images/smart-phone-5.png" class="card-img-top">
+          </div>
+          <div class="card-body p-3">
+            <h5 class="card-title">Galaxy S22 Ultra</h5>
+            <p class="card-text"><span class="fw-bold">$67999</span> &nbsp; <span class="text-black-50 text-decoration-line-through">$85999</span></p>
+            <p class="save pt-3">Save - $10000</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End SmartPhones Section -->
+
+
+  <!-- Start Top Categories Section -->
+    <section class="categories container py-5">
+      <div class="main-title py-4 d-flex justify-content-between align-items-center">
+        <div class="title-text">
+          <h3 class="fw-normal">Shop From <span>Top Categories</span></h3>
+        </div>
+        <div class="title-btn">
+          <a href="#" class="fs-5">View all</a>
+          <i class="fa-solid fa-angle-right ms-3 fs-5"></i>
+        </div>
+      </div>
+      <div class="row mt-5 justify-content-center justify-content-md-between g-3">
+        <div class="col-auto">
+          <div class="img rounded-circle text-center">
+            <img class="img-fluid object-fit-contain" src="images/smart-phone-1.png" alt="">
+          </div>
+          <h3 class="text-center mt-3 fs-3">Mobile</h3>
+        </div>
+        <div class="col-auto">
+          <div class="img rounded-circle text-center">
+            <img class="img-fluid object-fit-contain" src="images/cosmetics.png" alt="">
+          </div>
+          <h3 class="text-center mt-3 fs-3">Cosmetics</h3>
+        </div>
+        <div class="col-auto">
+          <div class="img rounded-circle text-center">
+            <img class="img-fluid object-fit-contain" src="images/electronics.png" alt="">
+          </div>
+          <h3 class="text-center mt-3 fs-3">Electronics</h3>
+        </div>
+        <div class="col-auto">
+          <div class="img rounded-circle text-center">
+            <img class="img-fluid object-fit-contain" src="images/furniture.png" alt="">
+          </div>
+          <h3>Furniture</h3>
+        </div>
+        <div class="col-auto">
+          <div class="img rounded-circle text-center">
+            <img class="img-fluid object-fit-contain" src="images/watch.png" alt="">
+          </div>
+          <h3 class="text-center mt-3 fs-3">Watches</h3>
+        </div>
+        <div class="col-auto">
+          <div class="img rounded-circle text-center">
+            <img class="img-fluid object-fit-contain" src="images/decor.png" alt="">
+          </div>
+          <h3 class="text-center mt-3 fs-3">Decor</h3>
+        </div>
+        <div class="col-auto">
+          <div class="img rounded-circle text-center">
+            <img class="img-fluid object-fit-contain" src="images/accessories.png" alt="">
+          </div>
+          <h3 class="text-center mt-3 fs-3">Accessories</h3>
+        </div>
+      </div>
+    </section>
+  <!-- End Top Categories Section -->
+
+
+  <!-- Start Electronics Section -->
+  <section class="electronics container py-5">
+    <div class="main-title py-4 d-flex justify-content-between align-items-center">
+      <div class="title-text">
+        <h3 class="fw-normal">To Electronics <span>Brands</span></h3>
+      </div>
+      <div class="title-btn">
+        <a href="#" class="fs-5">View all</a>
+        <i class="fa-solid fa-angle-right ms-3 fs-5"></i>
+      </div>
+    </div>
+    <div class="row g-3 mt-5">
+      <div class="col-12 col-md-6 col-lg-4 p-3 rounded">
+        <div class="content d-flex justify-content-between align-items-center">
+          <div class="text">
+            <h3 class="text-light">Ipone</h3>
+            <img class="img-fluid my-5" src="images/iphon-icon.png" alt="">
+            <div class="price fw-bold fs-5 text-white">UP To 80% OFF</div>
+          </div>
+          <div class="img">
+            <img class="img-fluid" src="images/iphone.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 p-3 rounded">
+        <div class="content d-flex justify-content-between align-items-center">
+          <div class="text">
+            <h3>Realme</h3>
+            <img class="img-fluid my-5" src="images/realme-icon.png" alt="">
+            <div class="price fw-bold fs-5">UP To 80% OFF</div>
+          </div>
+          <div class="img">
+            <img class="img-fluid" src="images/realme.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 p-3 rounded">
+        <div class="content d-flex justify-content-between align-items-center">
+          <div class="text">
+            <h3>Xiaomi</h3>
+            <img class="img-fluid my-5" src="images/xiaomi-icon.png" alt="">
+            <div class="price fw-bold fs-5">UP To 80% OFF</div>
+          </div>
+          <div class="img">
+            <img class="img-fluid" src="images/xiaomi.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Electronics Section -->
+
+  <!-- Start Daily Essentials Section -->
+  <section class="essentials container py-5">
+    <div class="main-title py-4 d-flex justify-content-between align-items-center">
+      <div class="title-text">
+        <h3 class="fw-normal">Daily <span>Essentials</span></h3>
+      </div>
+      <div class="title-btn">
+        <a href="#" class="fs-5">View all</a>
+        <i class="fa-solid fa-angle-right ms-3 fs-5"></i>
+      </div>
+    </div>
+    <div class="row mt-5 g-3">
+      <div class="col-6 col-md-3 col-lg-2">
+        <div class="card" style="width: fit-content;">
+          <div class="img-container text-center">
+            <img class="img-fluid" src="images/daily.png" class="card-img-top" >
+          </div>
+          <div class="card-body text-center">
+            <p class="card-text text-black-50">Daily Essentials</p>
+            <h5 class="card-title">UP To 50% OFF</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <div class="card" style="width: fit-content;">
+          <div class="img-container text-center">
+            <img class="img-fluid" src="images/vegitables.png" class="card-img-top" >
+          </div>
+          <div class="card-body text-center">
+            <p class="card-text text-black-50">Vegitables</p>
+            <h5 class="card-title">UP To 50% OFF</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <div class="card" style="width: fit-content;">
+          <div class="img-container text-center">
+            <img class="img-fluid" src="images/fruits.png" class="card-img-top" >
+          </div>
+          <div class="card-body text-center">
+            <p class="card-text text-black-50">Fruits</p>
+            <h5 class="card-title">UP To 50% OFF</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <div class="card" style="width: fit-content;">
+          <div class="img-container text-center">
+            <img class="img-fluid" src="images/strowberry.png" class="card-img-top" >
+          </div>
+          <div class="card-body text-center">
+            <p class="card-text text-black-50">Strowberry</p>
+            <h5 class="card-title">UP To 50% OFF</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <div class="card" style="width: fit-content;">
+          <div class="img-container text-center">
+            <img class="img-fluid" src="images/mango.png" class="card-img-top" >
+          </div>
+          <div class="card-body text-center">
+            <p class="card-text text-black-50">Mango</p>
+            <h5 class="card-title">UP To 50% OFF</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <div class="card" style="width: fit-content;">
+          <div class="img-container text-center">
+            <img class="img-fluid" src="images/cherry.png" class="card-img-top" >
+          </div>
+          <div class="card-body text-center">
+            <p class="card-text text-black-50">Cherry</p>
+            <h5 class="card-title">UP To 50% OFF</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Daily Essentials Section -->
+
+  <!-- Start Footer -->
+  <footer class="container-fluid py-5">
+    <div class="container">
+      <div class="row text-white g-3">
+        <div class="col-12 col-md-6 col-lg-6">
+          <h3 class="mb-4">MegaMart</h3>
+          <div class="contact">
+            <h4 class="fs-5">Contact Us</h4>
+            <i class="fa-brands fa-whatsapp"></i>
+            <span>Whatsapp <br> &nbsp; &nbsp; &nbsp; +2064489781167</span>
+          </div>
+          <div class="call my-3">
+            <h4 class="fs-5">Call Us</h4>
+            <i class="fa-solid fa-phone"></i>
+            <span>Phone <br> &nbsp; &nbsp; &nbsp;+2 0144548448</span>
+          </div>
+          <div class="download">
+            <h4 class="fs-5">Download App</h4>
+            <img class="img-fluid" src="images/download.png" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h4 class="pb-2 footer-title position-relative">Most Popular Categories</h4>
+          <ul class="mt-3">
+            <li class="my-3">Staples</li>
+            <li class="my-3">Beverages</li>
+            <li class="my-3">Personal Care</li>
+            <li class="my-3">Home Care</li>
+            <li class="my-3">Baby Care</li>
+            <li class="my-3">Vegetables & Fruits</li>
+            <li class="my-3">Snacks & Foods</li>
+            <li class="my-3">Dairy & Bakery</li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h4 class="pb-2 footer-title position-relative">Customer Services</h4>
+          <ul class="mt-3">
+            <li class="my-3">About Us</li>
+            <li class="my-3">Terms & Conditions</li>
+            <li class="my-3">FAQ</li>
+            <li class="my-3">Privacy Policy</li>
+            <li class="my-3">E-waste Policy</li>
+            <li class="my-3">Cancellation & Return Policy</li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyrights mt-5 text-center text-white fs-5">
+        &copy; 2022 All rights reserved. Reliance Retail Ltd.
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>

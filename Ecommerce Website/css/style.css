@@ -1,0 +1,293 @@
+/* Variables */
+:root {
+  --primary-color: #008ECC;
+  --dark-color: #212844;
+  --green-color: #249B3E;
+  --light-color: #F3F9FB;
+  --white-color: #fff;
+  --brand-bg-color-one: #414141;
+  --brand-bg-color-two: #F6DE8D;
+  --brand-bg-color-three: #FFD1B0;
+
+}
+
+/* Start Global Styling */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+button,
+i {
+  cursor: pointer;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.main-title {
+  position: relative;
+}
+
+.main-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(128, 128, 128, 0.3);
+  height: 4px;
+  width: 100%;
+}
+
+.main-title::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--primary-color);
+  height: 4px;
+  width: 25%;
+  transition: 0.3s;
+}
+
+.main-title:hover::before {
+  width: 100%;
+}
+
+.main-title h3 span {
+  color: var(--primary-color);
+}
+
+.main-title .title-btn a {
+  color: black;
+  transition: 0.3s;
+}
+
+.main-title .title-btn a:hover {
+  color: var(--primary-color);
+}
+
+.main-title .title-btn i {
+  color: var(--primary-color);
+}
+/* End Global Styling */
+
+/* Start Navbar Styling */
+.navbar {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.navbar .navbar-brand {
+  color: var(--primary-color);
+  transition: 0.3s;
+}
+
+.navbar form {
+  width: 500px;
+}
+
+@media (max-width: 1200px) {
+  .navbar form {
+    width: 100%;
+  }
+}
+
+.navbar form input {
+  width: 100%;
+  background-color: var(--light-color);
+  border: 1px solid var(--primary-color);
+  padding: 10px 50px;
+  transition: 0.3s;
+}
+
+.navbar form input:focus {
+  box-shadow: none !important;
+}
+
+.navbar form .search-icon {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: var(--primary-color);
+  z-index: 100;
+}
+
+.navbar form .list-icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: var(--primary-color);
+  z-index: 100;
+}
+
+.navbar .navbar-buttons {
+  gap: 30px;
+}
+
+.navbar .navbar-buttons i {
+  font-size: 20px;
+  color: var(--primary-color);
+}
+
+.navbar .navbar-toggler {
+  background: var(--light-color);
+  border: none;
+  width: 70px;
+  height: 70px;
+}
+
+.navbar .navbar-toggler:focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+/* End Navbar Styling */
+
+/* Start Buttons Styling */
+.buttons {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+  gap: 10px;
+}
+
+.buttons button{
+  padding: 10px 30px;
+  background-color: var(--light-color);
+  border-radius: 30px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.buttons button:hover,
+.buttons button.active {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+/* End Buttons Styling */
+
+/* Start Home Styling */
+.home {
+  background-color: var(--dark-color);
+  color: var(--white-color);
+}
+/* End Home Styling */
+
+/* Start Smartphones Styling */
+.smart .row .img-container {
+  height: 300px;
+  background-color: var(--light-color);
+}
+
+.smart .row .card {
+  transition: 0.3s;
+  border: 2px solid transparent;
+  position: relative;
+}
+
+.smart .row .card::before {
+  content: "56% OFF";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--primary-color);
+  color: white;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding: 5px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  font-weight: 400;
+}
+
+.smart .row .card:hover {
+  border: 2px solid var(--primary-color);
+}
+
+.smart .row .img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.smart .save {
+  color: var(--green-color);
+  border-top: 1px solid rgba(128, 128, 128, 0.3);
+}
+/* End Smartphones Styling */
+
+/* Start Top Categories Styling */
+
+.categories .row .img {
+  width: 200px;
+  height: 200px;
+  transition: 0.3s;
+  border: 2px solid transparent;
+  background-color: var(--light-color);
+  line-height: 200px;
+}
+
+.categories .row .img:hover {
+  border: 2px solid var(--primary-color);
+}
+
+/* End Top Categories Styling */
+
+/* Start Electronics Styling */
+.electronics .col-12 {
+  height: 300px;
+}
+.electronics .col-12:first-child {
+  background-color: var(--brand-bg-color-one);
+}
+.electronics .col-12:nth-child(2) {
+  background-color: var(--brand-bg-color-two);
+}
+.electronics .col-12:last-child {
+  background-color: var(--brand-bg-color-three);
+} 
+/* End Electronics Styling */
+
+/* Start Essentials Styling */
+.essentials .card {
+  transition: 0.3s ease;
+  border: 2px solid transparent;
+  height: 250px;
+}
+
+.essentials .card:hover {
+  border: 2px solid var(--primary-color);
+}
+/* End Essentials Styling */
+
+/* Start Footer Styling */
+footer {
+  background-color: var(--primary-color);
+}
+
+footer .footer-title::before {
+  position: absolute;
+  content: "";
+  bottom: -3px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: var(--white-color);
+}
+/* End Footer Styling */
