@@ -16,4 +16,4 @@ This project focuses on practicing front-end layout and styling using Bootstrap.
 
 ## 📸 Screenshot 
 
-[View Project](./images/screenshot.png)
+![E-Commerce Website](/images/screenshot.png)
