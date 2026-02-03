@@ -18,8 +18,7 @@ The website focuses on layout, typography, and responsive design using Bootstrap
 - Bootstrap
 
 ## 📸 Screenshot
-You can view a screenshot of the website here:  
-👉 [Landing Page](./images/screenshot.png)
+![Landing Page Screenshot](images/screenshot.png)
 
 ## 📌 Notes
 - This project is front-end only
