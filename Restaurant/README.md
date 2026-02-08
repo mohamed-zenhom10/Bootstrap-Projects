@@ -19,7 +19,7 @@ The website focuses on modern UI, smooth animations, and a great user experience
 
 ## 📸 Screenshot
 You can view a screenshot of the project here:  
-👉 [View Screenshot](./assets/imgs/screenshoot.png)
+![View Screenshot](assets/imgs/screenshoot.png)
 
 
 ## 📌 Notes
