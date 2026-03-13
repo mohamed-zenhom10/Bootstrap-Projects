@@ -16,5 +16,5 @@ A modern and responsive real estate website designed to showcase properties with
 - ScrollReveal.js
 
 ## 📸 Screenshot
-![Real Estate Website Screenshot](/images/screenshot.png)
+![Real Estate Website Screenshot](images/screenshot.png)
 
