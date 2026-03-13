@@ -6,11 +6,15 @@
 
 :root {
   --red : #F64B4B;
+  --red-overlay: #f64b4b60;
   --dark: #161C2D;
+  --dark-overlay: #161c2d44;
   --pruple: #473BF0;
   --white: #fff;
   --green-card: #68D585;
+  --green-overlay: #68d58542;
   --blue-card: #473BF0;
+  --blue: rgba(71, 59, 240, 0.5);
   --red-card: #F64B4B;
   --yellow: #FCAD38;
   --light: #F4F7FA;
@@ -96,3 +100,55 @@ html {
   color: var(--yellow);
 }
 /* End Rate Styling */
+
+/* Start Choose Styling */
+.choose-us {
+  background-color: var(--light);
+}
+
+.choose-us .col-md-6:nth-child(1) .icon {
+  background-color: var(--blue);
+}
+.choose-us .col-md-6:nth-child(1) .icon i {
+  color: var(--pruple);
+}
+
+.choose-us .col-md-6:nth-child(2) .icon {
+  background-color: var(--red-overlay);
+}
+.choose-us .col-md-6:nth-child(2) .icon i {
+  color: var(--red);
+}
+
+.choose-us .col-md-6:nth-child(3) .icon {
+  background-color: var(--green-overlay);
+}
+.choose-us .col-md-6:nth-child(3) .icon i {
+  color: var(--green-card);
+}
+
+.choose-us .col-md-6:nth-child(4) .icon {
+  background-color: var(--dark-overlay);
+}
+.choose-us .col-md-6:nth-child(4) .icon i {
+  color: var(--dark);
+}
+/* End Choose Styling */
+
+/* Start Testimonials Styling */
+.testimonials {
+  background: url("/imgs/bg-2.png") no-repeat;
+  background-size: cover;
+  min-height: 50vh;
+}
+/* End Testimonials Styling */
+
+/* Start Footer Styling */
+footer {
+  background-color: var(--dark);
+}
+
+footer .social-icons a {
+  
+}
+/* End Footer Styling */
