@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+  font-family: "Rubik", sans-serif;
+}
+
+:root {
+  --red : #F64B4B;
+  --dark: #161C2D;
+  --pruple: #473BF0;
+  --white: #fff;
+  --green-card: #68D585;
+  --blue-card: #473BF0;
+  --red-card: #F64B4B;
+  --yellow: #FCAD38;
+  --light: #F4F7FA;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.title p {
+  color: var(--red);
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.title h4 {
+  font-size: 35px;
+  color: var(--dark);
+  font-weight: bold;
+}
+
+.title.center {
+  text-align: center;
+}
+
+.dark-text {
+  color: var(--dark);
+}
+
+.main-btn {
+  background-color: var(--pruple);
+  color: var(--white);
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 10px 25px;
+  font-size: 18px;
+  transition: 0.3s ease-in;
+}
+
+.main-btn:hover {
+  transform: translateY(-5px);
+}
+
+/* Start Navbar Styling */
+.navbar {
+  background: url("../imgs/bg-1.png") no-repeat;
+}
+/* End Navbar Styling */
+
+/* Start Home Styling */
+.home {
+  background: url("../imgs/bg-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background-color: var(--white) !important;
+  }
+}
+/* End Home Styling */
+
+/* Start Services Styling */
+.services-1 {
+  background-color: var(--green-card);
+}
+.services-2 {
+  background-color: var(--blue-card);
+}
+.services-3 {
+  background-color: var(--red-card);
+}
+/* End Services Styling */
+
+/* Start Rate Styling */
+.rate i {
+  color: var(--yellow);
+}
+/* End Rate Styling */
