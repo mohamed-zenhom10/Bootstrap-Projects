@@ -217,6 +217,7 @@ a {
 }
 
 .smart .row .card:hover {
+  border-top-left-radius: 15px;
   border: 2px solid var(--primary-color);
 }
 
@@ -235,12 +236,16 @@ a {
 /* Start Top Categories Styling */
 
 .categories .row .img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   transition: 0.3s;
   border: 2px solid transparent;
   background-color: var(--light-color);
-  line-height: 200px;
+}
+
+.categories .row .img img {
+  width: 100px;
+  height: 100px;
 }
 
 .categories .row .img:hover {
@@ -250,16 +255,22 @@ a {
 /* End Top Categories Styling */
 
 /* Start Electronics Styling */
-.electronics .col-12 {
+.electronics .col-12 .content {
   height: 300px;
 }
-.electronics .col-12:first-child {
+
+.electronics .col-12 .content .img img {
+  height: 250px;
+  width: auto;
+}
+
+.electronics .col-12:first-child .content {
   background-color: var(--brand-bg-color-one);
 }
-.electronics .col-12:nth-child(2) {
+.electronics .col-12:nth-child(2) .content {
   background-color: var(--brand-bg-color-two);
 }
-.electronics .col-12:last-child {
+.electronics .col-12:last-child .content {
   background-color: var(--brand-bg-color-three);
 } 
 /* End Electronics Styling */
@@ -273,6 +284,11 @@ a {
 
 .essentials .card:hover {
   border: 2px solid var(--primary-color);
+}
+
+.essentials .card img {
+  width: 120px;
+  height: 120px;
 }
 /* End Essentials Styling */
 
